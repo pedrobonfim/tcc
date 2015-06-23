@@ -19,7 +19,7 @@ public class Application implements CommandLineRunner {
     public void run(String... strings) throws Exception {
         // save a couple of customers
         repository.save(new Customer("Jack", "Bostaao"));
-        repository.save(new Customer("Chloe", "O'Brian"));
+        repository.save(new Customer("Daniel", "O'Brian"));
         repository.save(new Customer("Kim", "Bauer"));
         repository.save(new Customer("David", "Palmer"));
         repository.save(new Customer("Michelle", "Dessler"));
